@@ -1,0 +1,43 @@
+---
+title: "SEMANA 4"
+author: "HUAMAN SALAZAR JHAIR"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#instalando paquetes
+
+#paquete 1
+install.packages("realdxl")
+library(readxl)
+
+#paquete 2
+install.packages("skimr")
+library(skirm)
+
+#paquete 3
+install.packages("plotly")
+library(plotly)
+
+#paquete 4
+install.packages("patchwork")
+library(patchwork)
+
+#paquete 5
+install.packages("forcats")
+library(forcats)
+```
+
+```{r}
+#| echo: false
+2 * 2
+```
