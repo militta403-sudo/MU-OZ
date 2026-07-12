@@ -1,1 +1,0 @@
-# proyecto-semana 1
